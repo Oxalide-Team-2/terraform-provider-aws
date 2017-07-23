@@ -4,6 +4,6 @@ variable "region" {
 
 variable "base_cidr_block" {}
 
-provider "aws" {
-  region = "${var.region}"
-}
+# provider "aws" {
+#   region = "${var.region}"
+# }
